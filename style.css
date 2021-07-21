@@ -1,0 +1,42 @@
+body{
+	font-family: 'Open Sans', sans-serif;
+	text-align: justify;
+	margin: 0;
+}
+h1{
+	font-size: 50px;
+	margin-top: 30px;
+	line-height: 30px;
+	padding-top: 5px;
+}
+.high-light{
+	color: orange;
+}
+.half-width{
+	width: 52%;
+	margin-left: 6%;
+	float: left;
+}
+.half-widt{
+	width: 40%;
+	float: left;
+}
+.half-widt img {
+	width: 60%;
+	height: 60%;
+	margin-left: 150px;
+	
+}
+.sec-high{
+	height: 400px;
+	background: url("images/ban.png");
+	background-repeat: no-repeat;
+}
+.proth {
+	color: white;
+	font-size: 30px;
+	border-radius: 8px;
+	background-image: -moz-linear-gradient(60deg, red, blue);
+	font-weight: bolder;
+	text-decoration: none;
+}
