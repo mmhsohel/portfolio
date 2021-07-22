@@ -16,6 +16,7 @@ h1{
 	width: 52%;
 	margin-left: 6%;
 	float: left;
+	
 }
 .half-widt{
 	width: 40%;
@@ -36,7 +37,51 @@ h1{
 	color: white;
 	font-size: 30px;
 	border-radius: 8px;
-	background-image: linear-gradient(45deg, #d02e2e, rgb(255, 0, 13));
+	background-image: linear-gradient(45deg, #d02e2e, rgb(151, 100, 101));
 	font-weight: bolder;
 	text-decoration: none;
+}
+section{
+	height: 500px;
+	padding-bottom: 50px;
+}
+
+
+.first{
+	width: 35%;
+	margin-left: 10%;
+	box-shadow: 10px 10px 40px gray;
+	float: left;
+	border-left: 10px;
+	border-left-style: solid;
+	border-image: linear-gradient( red, green, white);
+	border-image-slice: 3;
+	border-radius: 10px;
+}
+.second{
+	width: 35%;
+	margin-left: 10%;
+	box-shadow: 10px 10px 40px gray;
+	float: left;
+	border: 10px;
+	border-style: solid;
+	border-image: linear-gradient( red, green );
+	border-image-slice: 3;
+	border-radius: 50px;
+	border-collapse: inherit;
+	border-width: 80%;
+}
+.para{
+	margin: 0 10px 10px 10px;
+}
+h3{
+	color: orangered;
+	font-size: 25px;
+	text-align: center;
+}
+.second:hover{
+	background: rgb(240, 240, 240);
+}
+h1{
+	margin-left: 8px;
 }
